@@ -1,0 +1,1 @@
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');class Dasbor extends MX_Controller {			public function __construct()	{		parent::__construct();	}		public function index()	{		$this->page->view('dasbor_index');	}	}/* End of file dasbor.php *//* Location: ./application/controllers/dasbor.php */

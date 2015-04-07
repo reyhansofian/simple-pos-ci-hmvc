@@ -1,0 +1,11 @@
+table {
+	width: 100%;
+}
+
+.DataTables_sort_wrapper {
+	font-weight: bold;
+}
+
+tr, td, th {
+	border: 1px solid #000;
+}

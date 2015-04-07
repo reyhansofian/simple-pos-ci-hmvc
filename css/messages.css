@@ -1,0 +1,36 @@
+.info, .err, .success {
+	background-repeat: no-repeat;
+	background-position: 10px center;
+	font-weight: bold;
+	padding: 7px 5px 7px 33px;
+	margin-bottom: 10px;
+	
+	border-radius: 0px;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+}
+.info {
+	background-color: #D8F8FC;
+	background-image: url("../ico/info.png");
+	border: 1px solid #5AB;
+	color: #16A;
+}
+.err {
+	background-color: #FCE0E0;
+	background-image: url("../ico/error.png");
+	border: 1px solid #A8303C;
+	color: #A8303C;
+}
+.success {
+	background-color: #CFF8AF;
+	background-image: url("../ico/success.png");
+	border: 1px solid #3F8A00;
+	color: #3F8A00;
+}
+.message-content {
+	margin: 0 15px 20px;
+}
+.box .info, .box .err, .box .success {
+	margin: 0 20px;
+	margin-bottom: 10px;
+}

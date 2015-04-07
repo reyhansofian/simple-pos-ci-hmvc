@@ -1,0 +1,137 @@
+.grid-info {
+	background: #FEA;
+	color: #A83;
+	padding: 10px;
+}
+.scroll-x {
+	overflow-x: auto;
+	padding-bottom: 7px;
+	width: 100%;
+}
+.grid {
+	border: 1px solid Crimson;
+	border-right: 0;
+	text-align: left;
+}
+.grid th, .grid td {
+	font: 13px/17px DroidSans;
+	padding: 5px 10px;
+	border-right: 1px solid Crimson;
+	white-space: nowrap;
+}
+.grid th {
+	background: IndianRed;
+	color: #FFF;
+	text-align: center;
+	border-bottom: 1px solid Crimson;
+	font-weight: normal;
+}
+.grid th a {
+	color: #FFF;
+}
+.asc a, .dsc a {
+	display: block;
+	padding: 0 17px 0 0;
+}
+.asc a {
+	background: url(../ico/asc.gif) no-repeat;
+	background-position: right 50%;
+}
+.dsc a {
+	background: url(../ico/desc.gif) no-repeat;
+	background-position: right 50%;
+}
+.grid td {
+	background: #FFF;
+}
+.grid td.num {
+	text-align: right;
+}
+.grid tr.even td {
+	background: #F8F3F0;
+}
+.grid td.ico {
+	padding: 4px 7px;
+	text-align: center;
+	vertical-align: middle;
+	width: 20px;
+}
+.grid td.ico a {
+	color: #8F8F8F;
+}
+.grid td.ico a:hover {
+	color: #555;
+}
+.grid td img {
+	vertical-align: middle;
+}
+.checkbox {
+	margin-top: -2px;
+	vertical-align: middle;
+}
+.pagination {
+	font-size: 11px;
+	margin-top: 20px;
+}
+.pagination ul li {
+	display: inline-block;
+	margin-right: 7px;
+}
+.pagination ul li a {
+	background: #EEE;
+	border: 1px solid Crimson;
+	color: #000;
+	display: block;
+	padding: 3px 7px;
+	
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+.pagination ul li a:hover {
+	background: Crimson;
+	border: 1px solid Crimson;
+	color: #FFF;
+}
+.pagination ul li#current-page a {
+	background: #FFF;
+}
+.pagination ul li#current-page a:hover {
+	background: #FFF;
+	border-color: Crimson;
+	color: #000;
+}
+.dark td {
+	background: #F8F0C3;
+}
+.light td {
+	background: #FFFCCE;
+}
+.cell-based {
+	background: #CCC;
+}
+.cell-based th,
+.cell-based td {
+	padding: 5px 10px;
+}
+.cell-based th {
+	background: #EEE;
+}
+.cell-based td {
+	background: #FFF;
+}
+.cell-based [type=text] {
+	padding: 6px;
+	width: 100%;
+	
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.cell-based select {
+	border: 0;
+	padding: 0;
+}
+.grid.wrap th, .grid.wrap td {
+	white-space: initial;
+}
